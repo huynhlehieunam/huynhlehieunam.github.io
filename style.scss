@@ -14,14 +14,13 @@ body{
     background: url("floating-heart.gif");
 }
 
-.popup{
-    
-}
-
 .game{
     width: 80%;
     margin: 200px auto;
     .question,.answers{
+        img{
+            width: 200px;
+        }
         text-align: center;
         font-size: 32px;
         padding: 20px;
