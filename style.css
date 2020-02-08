@@ -19,7 +19,7 @@ body {
 
 .game {
   width: 80%;
-  margin: 200px auto;
+  margin: 50px auto;
 }
 
 .game .question, .game .answers {
@@ -32,11 +32,6 @@ body {
 
 .game .question img, .game .answers img {
   width: 200px;
-}
-
-.game .question.answers, .game .answers.answers {
-  margin-top: 50px;
-  padding: 50px;
 }
 
 .game .question.answers #yes, .game .question.answers #no, .game .answers.answers #yes, .game .answers.answers #no {

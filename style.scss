@@ -16,7 +16,7 @@ body{
 
 .game{
     width: 80%;
-    margin: 200px auto;
+    margin: 50px auto;
     .question,.answers{
         img{
             width: 200px;
@@ -27,8 +27,6 @@ body{
         background-color: #ff2e63;
         border-radius: 5px;
         &.answers{
-            margin-top: 50px;
-            padding: 50px;
             #yes,#no{
                 z-index: 1000;
             }
