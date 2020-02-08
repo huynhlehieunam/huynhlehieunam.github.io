@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #fbf4f9;
+    font-family: 'Kalam', cursive;
+}
+.container{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: url("floating-heart.gif");
+}
+
+.popup{
+    
+}
+
+.game{
+    width: 80%;
+    margin: 200px auto;
+    .question,.answers{
+        text-align: center;
+        font-size: 32px;
+        padding: 20px;
+        background-color: #ff2e63;
+        border-radius: 5px;
+        &.answers{
+            margin-top: 50px;
+            padding: 50px;
+            #yes,#no{
+                z-index: 1000;
+            }
+        }
+    }
+}
+.popup{
+    width: 100vw;
+    height: 100vh;
+    z-index: 10000;
+    .main{
+        padding: 150px 0;
+        width: 80%;
+        height: 80%;
+        margin: auto;
+        img{
+            width: 100%;
+        }
+    }
+}
+
+@media(min-width:1000px){
+    .popup img{
+        height: 300px;
+        width: 300px !important;
+    }
+}
